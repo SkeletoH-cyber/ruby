@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "rubymod",
+  "version": "${version}",
+  "name": "Ruby Mod",
+  "description": "Рубин, рубиновый блок и волшебное яблоко.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.rubymod.RubyMod"],
+    "client": ["com.example.rubymod.client.RubyModClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

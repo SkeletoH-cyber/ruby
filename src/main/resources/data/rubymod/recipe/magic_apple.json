@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["RRR", "RAR", "RRR"],
+  "key": { "R": { "item": "rubymod:ruby" }, "A": { "item": "minecraft:apple" } },
+  "result": { "id": "rubymod:magic_apple", "count": 1 }
+}
